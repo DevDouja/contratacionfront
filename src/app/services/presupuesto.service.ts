@@ -10,13 +10,14 @@ import { Observable } from 'rxjs';
 })
 export class PresupuestoService implements OnInit{
 
-  URL = "http://localhost:8081/presupuesto"
+  URL = "http://localhost:8080/presupuesto"
   
 
   constructor(private http:HttpClient,
-              private estado:EstadoService) { }
+              private estado:EstadoService) {}
 
   ngOnInit(): void {}
+  
 
   calcularPresupuesto(vivienda:Vivienda):Observable<number>{
     console.log("vivienda en PresupuestoService",vivienda);
