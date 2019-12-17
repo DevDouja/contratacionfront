@@ -1,6 +1,6 @@
 import { Injectable, OnInit } from '@angular/core';
-import { Vivienda } from '../model/vivienda';
-import { Persona } from '../model/persona';
+import { Vivienda } from '../models/vivienda';
+import { Persona } from '../models/persona';
 
 
 @Injectable({

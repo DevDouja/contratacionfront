@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EstadoService } from 'src/app/services/estado.service';
 import { PresupuestoService } from 'src/app/services/presupuesto.service';
-import { Vivienda } from 'src/app/model/vivienda';
+import { Vivienda } from 'src/app/models/vivienda';
 
 @Component({
   selector: 'app-presupuesto',

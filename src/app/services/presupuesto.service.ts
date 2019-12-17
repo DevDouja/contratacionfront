@@ -1,5 +1,5 @@
 import { Injectable, OnInit } from '@angular/core';
-import { Vivienda } from '../model/vivienda';
+import { Vivienda } from '../models/vivienda';
 import { EstadoService } from './estado.service';
 //import { environment } from '../../environments/environment';
 import { HttpClient } from '@angular/common/http';
